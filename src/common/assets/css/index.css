@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Sora', sans-serif;
+    @apply scroll-smooth;
+  }
+
+  h1 {
+    @apply text-xl font-bold lg:text-3xl lg:font-bold lg:text-primary-foreground;
+  }
+
+  h2 {
+    @apply text-xl font-bold lg:text-3xl lg:font-semibold;
+  }
+
+  h3 {
+    @apply text-xl font-semibold lg:text-xl lg:font-bold;
+  }
+
+  h4 {
+    @apply text-sm font-semibold lg:text-xl lg:font-semibold;
+  }
+
+  h5 {
+    @apply text-sm font-normal lg:text-lg lg:font-medium;
+  }
+
+  h6 {
+    @apply text-sm font-normal  lg:text-base lg:font-medium;
+  }
+
+  p {
+    @apply text-xs font-normal lg:text-sm lg:font-medium;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
