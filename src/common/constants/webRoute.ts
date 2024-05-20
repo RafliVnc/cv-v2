@@ -1,5 +1,5 @@
 const webRoute = {
-  about: 'cv-v2/',
+  about: '/',
   resume: '/resume',
   portofolio: '/portofolio',
   contact: '/contact'
