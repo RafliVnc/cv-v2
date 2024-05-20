@@ -1,8 +1,8 @@
 const webRoute = {
-  about: "/",
-  resume: "/resume",
-  portofolio: "/portofolio",
-  contact: "/contact",
-};
+  about: 'cv-v2/',
+  resume: 'cv-v2//resume',
+  portofolio: 'cv-v2//portofolio',
+  contact: 'cv-v2//contact'
+}
 
-export default webRoute;
+export default webRoute
